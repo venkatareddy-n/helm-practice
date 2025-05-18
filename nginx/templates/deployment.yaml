@@ -23,4 +23,5 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: latest
+        # this is called as placeholder
+        image: nginx:{{ .Values.deployment.imageVersion }}
