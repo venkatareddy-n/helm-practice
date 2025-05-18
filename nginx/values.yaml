@@ -1,0 +1,7 @@
+deployment:
+  imageVersion: stable-perl
+  replicas: 2
+service:
+  port: 80
+  targetPort: 80
+  type: LoadBalancer

@@ -1,1 +1,4 @@
-# helm-practice
+# helm-practice 
+
+* Sample nginx deployment using helm
+
